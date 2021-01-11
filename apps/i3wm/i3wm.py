@@ -32,4 +32,4 @@ class Actions:
     def i3wm_lock():
         """Trigger the lock screen"""
         key = settings.get("user.i3_mod_key")
-        actions.key(f"{key}-shift-x")
+        actions.key(f"{key}-9")

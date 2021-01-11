@@ -34,6 +34,6 @@ settings():
     # work in some applications. You may wish to enable this on a
     # per-application basis.
     # user.context_sensitive_dictation = 1
-	
+
 # uncomment tag to enable mouse grid
-# tag(): user.mouse_grid_enabled
+tag(): user.i3wm

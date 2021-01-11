@@ -79,11 +79,6 @@ next scratch:
     user.system_command("i3-msg scratchpad show")
 
 # these rely on the user settings for the mod key. see i3wm.py Actions class
-launch: user.i3wm_launch()
-launch <user.text>:
-        user.i3wm_launch()
-        sleep(100ms)
-        insert("{text}")
 lock screen: user.i3wm_launch()
 
 (launch shell|koopa): user.i3wm_shell()
@@ -93,3 +88,8 @@ new scratch (shell|window):
     sleep(200ms)
     user.system_command("i3-msg move scratchpad")
     user.system_command("i3-msg scratchpad show")
+launch: user.i3wm_launch()
+launch <user.text>:
+        user.i3wm_launch()
+        sleep(100ms)
+        insert("{text}")
