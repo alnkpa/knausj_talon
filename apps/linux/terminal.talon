@@ -1,7 +1,6 @@
 os: linux
 tag: terminal
 -
-tag(): user.file_manager
 #todo: generic tab commands
 #tag(): tabs
 action(edit.page_down):
@@ -27,4 +26,10 @@ vim:
   insert("nvim ")
 go talon home:
   insert("cd ~/.talon/user")
+  key(enter)
+go back:
+  insert("cd -")
+  key(enter)
+fix it:
+  insert("fuck")
   key(enter)
