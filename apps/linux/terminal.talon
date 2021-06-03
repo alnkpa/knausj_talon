@@ -24,8 +24,14 @@ kill all:
   key(ctrl-c)
 vim:
   insert("nvim ")
-go talon home:
-  insert("cd ~/.talon/user")
+go speech home:
+  insert("cd ~/.talon/user/knausj_talon")
+  key(enter)
+go downloads:
+  insert("cd ~/Downloads")
+  key(enter)
+go projects:
+  insert("cd ~/projects")
   key(enter)
 go back:
   insert("cd -")
