@@ -9,3 +9,9 @@ tag(): user.git
 tag(): terminal
 
 # Selection mode
+
+open address:
+  key(ctrl-shift-e)
+select path:
+  key(ctrl-shift-p)
+  insert("f")
